@@ -26,20 +26,17 @@
 //    [loginLab setBackgroundColor:[UIColor grayColor]];
 //    [self.view addSubview:loginLab];
 
-    
-    
-    //登录
-    self.loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(37, 180, 117, 37)];
+    self.loginBtn = [[UIButton alloc] initWithFrame:self.view.bounds];
     [self.loginBtn setBackgroundColor:[UIColor grayColor]];
     [self.loginBtn addTarget:self action:@selector(button:) forControlEvents:UIControlEventTouchUpInside];
     [self.loginBtn setTag:101];
     [self.view addSubview:self.loginBtn];
     
-    self.loginBtn1 = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    [self.loginBtn1 setBackgroundColor:[UIColor redColor]];
-    [self.loginBtn1 addTarget:self action:@selector(button1:) forControlEvents:UIControlEventTouchUpInside];
-    [self.loginBtn1 setTag:102];
-    [self.view addSubview:self.loginBtn1];
+//    self.loginBtn1 = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+//    [self.loginBtn1 setBackgroundColor:[UIColor redColor]];
+//    [self.loginBtn1 addTarget:self action:@selector(button1:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.loginBtn1 setTag:102];
+//    [self.view addSubview:self.loginBtn1];
     
     //[self.loginBtn1 setHidden:true];
     
